@@ -12,7 +12,6 @@ from mlops.utils.deploy.aws import (
 if 'custom' not in globals():
     from mage_ai.data_preparation.decorators import custom
 
-
 @custom
 def setup(*args, **kwargs):
     # Create IAM policy ContinuousIntegrationContinuousDeployment
