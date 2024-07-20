@@ -209,7 +209,7 @@ widgets:
   language: python
   name: prepare_histogram_w1
   retry_config: null
-  status: executed
+  status: failed
   timeout: null
   type: chart
   upstream_blocks:
