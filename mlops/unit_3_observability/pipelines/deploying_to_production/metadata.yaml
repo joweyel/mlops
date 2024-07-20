@@ -123,7 +123,7 @@ blocks:
   language: python
   name: Deploy
   retry_config: null
-  status: updated
+  status: executed
   timeout: null
   type: custom
   upstream_blocks:
@@ -180,7 +180,7 @@ blocks:
   type: markdown
   upstream_blocks: []
   uuid: add_secrets_to_github_repo
-- all_upstream_blocks_executed: false
+- all_upstream_blocks_executed: true
   color: purple
   configuration:
     file_path: unit_3_observability/custom/ci_and_cd.py
@@ -193,7 +193,7 @@ blocks:
   language: python
   name: CI and CD
   retry_config: null
-  status: updated
+  status: executed
   timeout: null
   type: custom
   upstream_blocks:

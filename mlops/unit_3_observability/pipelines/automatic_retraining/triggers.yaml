@@ -1,7 +1,7 @@
 triggers:
 - description: null
   envs: []
-  last_enabled_at: 2024-05-16 09:13:26.683620+00:00
+  last_enabled_at: 2024-07-19 16:50:37.549256+00:00
   name: Retrain models hourly
   pipeline_uuid: automatic_retraining
   schedule_interval: '@hourly'
@@ -13,5 +13,5 @@ triggers:
   sla: null
   start_time: 2024-05-16 07:00:00+00:00
   status: active
-  token: null
+  token: c8361973c2b742199f20423ac2c2d123
   variables: {}
