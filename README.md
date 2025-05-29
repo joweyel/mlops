@@ -3,7 +3,7 @@
 1. Clone repo:
 
    ```
-   git clone https://github.com/mage-ai/mlops.git
+   git clone https://github.com/joweyel/mlops.git
    ```
 
 1. Change directory into the cloned repo:

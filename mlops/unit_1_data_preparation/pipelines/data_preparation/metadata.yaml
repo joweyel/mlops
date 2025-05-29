@@ -28,8 +28,8 @@ blocks:
     file_source:
       path: unit_1_data_preparation/transformers/prepare.py
   downstream_blocks:
-  - prepare_histogram_w1
   - build
+  - prepare_histogram_j5
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -127,7 +127,7 @@ widgets:
   language: python
   name: unique values for ingest
   retry_config: null
-  status: failed
+  status: executed
   timeout: null
   type: chart
   upstream_blocks:
@@ -207,11 +207,11 @@ widgets:
   executor_type: local_python
   has_callback: false
   language: python
-  name: prepare_histogram_w1
+  name: prepare_histogram_j5
   retry_config: null
-  status: failed
+  status: executed
   timeout: null
   type: chart
   upstream_blocks:
   - prepare
-  uuid: prepare_histogram_w1
+  uuid: prepare_histogram_j5
