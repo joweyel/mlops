@@ -1,8 +1,4 @@
 blocks:
-  aged_rogue:
-    name: aged rogue
-    type: chart
-    uuid: aged_rogue
   completed_pipeline_runs_daily_sklearn_training_w6:
     configuration:
       chart_type: time series line chart
@@ -18,14 +14,6 @@ blocks:
     name: Completed pipeline runs daily
     type: chart
     uuid: completed_pipeline_runs_daily_sklearn_training_w6
-  eclipsing_illusion:
-    name: eclipsing illusion
-    type: chart
-    uuid: eclipsing_illusion
-  elemental_glacier:
-    name: elemental glacier
-    type: chart
-    uuid: elemental_glacier
   failed_pipeline_runs_daily_sklearn_training_v0:
     configuration:
       chart_type: time series line chart
@@ -41,10 +29,6 @@ blocks:
     name: Failed pipeline runs daily
     type: chart
     uuid: failed_pipeline_runs_daily_sklearn_training_v0
-  harmonic_herbalist:
-    name: harmonic herbalist
-    type: chart
-    uuid: harmonic_herbalist
   pipeline_run_status_sklearn_training_g6:
     configuration:
       chart_style: horizontal
@@ -76,14 +60,6 @@ blocks:
     name: Pipeline runs daily
     type: chart
     uuid: pipeline_runs_daily_sklearn_training_b8
-  restless_cleric:
-    name: restless cleric
-    type: chart
-    uuid: restless_cleric
-  spring_ronin:
-    name: spring ronin
-    type: chart
-    uuid: spring_ronin
   trigger_active_status_sklearn_training_m3:
     configuration:
       chart_type: bar chart
@@ -140,16 +116,4 @@ layout:
   - block_uuid: pipeline_run_status_sklearn_training_g6
     width: 1
 - - block_uuid: failed_pipeline_runs_daily_sklearn_training_v0
-    width: 1
-- - block_uuid: elemental_glacier
-    width: 1
-- - block_uuid: restless_cleric
-    width: 1
-- - block_uuid: spring_ronin
-    width: 1
-- - block_uuid: eclipsing_illusion
-    width: 1
-- - block_uuid: harmonic_herbalist
-    width: 1
-- - block_uuid: aged_rogue
     width: 1

@@ -21,6 +21,10 @@ def hyperparameter_tuning(
     Series,
     Callable[..., BaseEstimator]
 ]:
+    print(training_set)
+    print(model_class_name)
+    print(args)
+    print(kwargs)
     X, X_train, X_val, y, y_train, y_val, _ = training_set['build']
 
     model_class = load_class(model_class_name)

@@ -71,7 +71,7 @@ blocks:
   language: python
   name: Dashboard data source
   retry_config: null
-  status: executed
+  status: failed
   timeout: null
   type: custom
   upstream_blocks:
